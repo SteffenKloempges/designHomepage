@@ -1,0 +1,80 @@
+/*=====================================
+                GLOBAL
+=====================================*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    margin: auto;
+    background: #25282F;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*=====================================
+                HEADER
+=====================================*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #25282F;
+    .logo{
+        margin: 10px 0px; 
+        img{
+            width: 10%;
+        }
+    }
+    ul{
+        display: flex;
+        li{
+            padding: 15px;
+        }
+    }
+}
+
+/*=====================================
+                MAIN
+=====================================*/
+
+#hero{
+    padding:7% 15%;
+    div{
+        color: white;
+        width: 40%;
+        h1{
+            font-size: 6em;
+            font-weight: 500;
+            line-height: 80px;
+            padding: 0 0 50px 0;
+        }
+        p{
+            font-weight: 200;
+            &:nth-of-type(2){
+                line-height: 25px;
+                padding-bottom: 35px;
+            }
+        }
+        a{
+            font-weight: 100;
+            &:hover{
+                font-weight: 300;
+            }
+        }
+    }
+}

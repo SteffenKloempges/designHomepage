@@ -1,0 +1,79 @@
+/*=====================================
+                GLOBAL
+=====================================*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  background: #25282F;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*=====================================
+                HEADER
+=====================================*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #25282F;
+}
+header .logo {
+  margin: 10px 0px;
+}
+header .logo img {
+  width: 10%;
+}
+header ul {
+  display: flex;
+}
+header ul li {
+  padding: 15px;
+}
+
+/*=====================================
+                MAIN
+=====================================*/
+#hero {
+  padding: 7% 15%;
+}
+#hero div {
+  color: white;
+  width: 40%;
+}
+#hero div h1 {
+  font-size: 6em;
+  font-weight: 500;
+  line-height: 80px;
+  padding: 0 0 50px 0;
+}
+#hero div p {
+  font-weight: 200;
+}
+#hero div p:nth-of-type(2) {
+  line-height: 25px;
+  padding-bottom: 35px;
+}
+#hero div a {
+  font-weight: 100;
+}
+#hero div a:hover {
+  font-weight: 300;
+}
+
+/*# sourceMappingURL=style.css.map */
